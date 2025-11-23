@@ -1,0 +1,13 @@
+[project]
+name = "shinka-openevolve"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pyyaml>=6.0.3",
+    "shinka>=0.3.0",
+]
+
+[tool.uv.sources]
+shinka = { git = "https://github.com/SakanaAI/ShinkaEvolve.git" }
